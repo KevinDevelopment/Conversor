@@ -8,6 +8,10 @@ class Table {
   get RowCount(){
     return this.rows.length;
   }
+
+  get columnCount(){
+    return this.header.length;
+  }
 }
 
 module.exports = Table;
