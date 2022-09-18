@@ -5,11 +5,11 @@ class Table {
     this.rows = arr;
   }
 
-  get RowCount(){
+  get RowCount() {
     return this.rows.length;
   }
 
-  get columnCount(){
+  get columnCount() {
     return this.header.length;
   }
 }
